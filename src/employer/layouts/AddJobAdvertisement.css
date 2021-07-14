@@ -1,0 +1,75 @@
+.addJA-body {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: 650px;
+}
+
+.left-body {
+
+    margin-top: 5%;
+    width: 25%;
+    height: 650px;
+    background-color: #393E46;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.right-body {
+
+    margin-top: 5%;
+    width: 75%;
+    height: 650px;
+    background-color: #00ADB5;
+    margin-left: 25%;
+    margin-top: -650px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+
+
+.jobAdvertisement {
+    text-align: center;
+    padding-top: 75%;
+    color: #EEEEEE;
+    font-weight:bolder;
+
+
+}
+
+.new-text {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+ .add-input-box {
+    margin-bottom: 50px;
+    width:  calc(100% / 2 -20px);
+}
+
+.add-input-box .add-details {
+    color: #EEEEEE;
+    font-weight:bolder;
+    
+}
+
+
+.right-body .add-input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.three {
+    margin-top: 7%;
+}

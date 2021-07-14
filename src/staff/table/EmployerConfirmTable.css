@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+body {
+  background-color: #EEEEEE;
+
+  font-family: "Play", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    color: #487E95;
+}
+
+.packages {
+  margin: 20px;
+  width: 300px;
+  padding-bottom: 1.5em;
+  height: 100%;
+  background-color: #476072;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
+  flex-wrap: wrap;
+  color: #EEEEEE;
+}
+
+h1,
+h2 {
+  font-size: 2.2em;
+}
+
+.list li {
+  font-size: 15px;
+  list-style: none;
+  border-bottom: 1px solid #EEEEEE;
+  padding-inline-start: 0;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.first {
+  margin-top: 40px;
+  border-top: 1px solid #EEEEEE;
+}
+
+.list {
+  width: 80%;
+}
+
+ol,
+ul {
+  padding: 0;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+
+.package-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.package-container .title-table {
+    padding: 7%;
+}
+
+.i.fas.fa-hoourglass {
+    padding-right: 2px;
+}
